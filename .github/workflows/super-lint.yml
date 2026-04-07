@@ -1,0 +1,14 @@
+name: Linting Otomatis UTS
+on: [push, pull_request]
+jobs:
+  pemeriksaan-kode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Jalankan Linter
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_HTML: true
+          VALIDATE_CSS: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
