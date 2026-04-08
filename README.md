@@ -51,9 +51,8 @@ myduit/
 ├── css/style.css
 ├── js/auth.js
 ├── js/transactions.js
-├── screenshots/
 ├── README.md
-└── .gitlab-ci.yml
+└── .github/workflows/super-lint.yml
 ```
 
 ## Git Flow
