@@ -2,7 +2,7 @@
 
 ## Demo
 - Login: admin / 123
-- Live Demo: https://[username].github.io/myduit/
+- Live Demo: https://ger123348.github.io/Web-Keuangan_AgileSoftwareTesting/
 
 ## Tim Pengembang
 | Nama | NPM |
